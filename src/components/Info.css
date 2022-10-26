@@ -93,9 +93,10 @@
 .board .boardBody{
     width: 100%;
     text-align: center;
-    padding: 20px 5%;
+    padding: 20px 25%;
     background-color: #bc9095;
     border-bottom: 1px solid #fff;
+    word-break: keep-all;
 }
 .board .boardBody h4{
     font-size: 20px;
@@ -115,11 +116,12 @@
         width: 15%;
     }
     .board ul li ul li:nth-child(2){
-        width: 35%;
+        width: 30%;
         word-wrap: break-word;
+        font-size: 12px;
     }
     .board ul li ul li:nth-child(3){
-        width: 50%;
+        width: 55%;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -127,5 +129,12 @@
     }
     .board ul li ul li:nth-child(4){
         display: none;
+    }
+    .board .boardBody h4{
+        font-size: 20px;
+    }
+    .board .boardBody{
+        font-size: 14px;
+        padding: 20px 5%;
     }
 }
