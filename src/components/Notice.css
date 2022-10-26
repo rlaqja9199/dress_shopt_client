@@ -44,8 +44,12 @@
     background: #e2a5ac;
 }
 #notice table tr td {
-    border-top: 0.5px solid #fff;
+    /* border-top: 0.5px solid #fff; */
+    border-top: 1px solid #fff;
     padding: 16px 0;
+}
+#notice table tr:not(:first-child):hover td {
+    background-color: rgba(0,0,0,0.05)
 }
 #notice table tr td:first-child {
     width: 10%;
@@ -93,15 +97,21 @@
     #notice table {
         width: 90%;
     }
+    #notice table tr td {
+        font-size: 14px;
+    }
     #notice table tr td:nth-child(2) {
-        max-width: 150px;
-        padding:0 8px;
+        max-width: 120px;
+        padding:0 10px;
         overflow:hidden;
         text-overflow:ellipsis;
         white-space:nowrap;
     }
     #notice table tr .noticeWriter {
         display: none;
+    }
+    #notice table tr .noticeDate {
+        font-size: 12px;
     }
 
 }
