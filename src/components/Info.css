@@ -11,12 +11,13 @@
 }
 
 #info{
-    width: 80%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     color: #fff;
     margin-top: 150px;
     text-align: center;
+    padding-bottom: 200px;
 }
 #info #titleAni {
     margin-bottom: 30px;
@@ -99,4 +100,31 @@
 .board .boardBody h4{
     font-size: 20px;
     margin-bottom: 14px;
+}
+
+
+
+/* 반응형 */
+@media screen and (max-width: 768px) {
+    .board ul li ul li{
+        padding: 14px 4px;
+        font-size: 14px;
+    }
+
+    .board ul li ul li:nth-child(1){
+        width: 15%;
+    }
+    .board ul li ul li:nth-child(2){
+        width: 25%;
+    }
+    .board ul li ul li:nth-child(3){
+        width: 60%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding-left: 8px;
+    }
+    .board ul li ul li:nth-child(4){
+        display: none;
+    }
 }
