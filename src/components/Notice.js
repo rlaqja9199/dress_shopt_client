@@ -33,13 +33,13 @@ const Notice = () => {
                     <tr>
                         <th>번호</th>
                         <th>제목</th>
-                        <th>작성자</th>
+                        <th className='noticeWriter'>작성자</th>
                         <th>작성일</th>
                     </tr>
                     <tr>
                         <td>7</td>
                         <td className='7' onClick={onClick}>원단가격 인상에 따른 드레스 단가인상 안내드립니다.</td>
-                        <td>대표 관리자 👸🏻</td>
+                        <td className='noticeWriter'>대표 관리자 👸🏻</td>
                         <td>2022-10-24</td>
                     </tr>
                     {7 === isOpen && 
@@ -68,7 +68,7 @@ const Notice = () => {
                     <tr>
                         <td>6</td>
                         <td className='6' onClick={onClick} style={{fontFamily: "Playfair Display"}}>CUSTOM-MADE</td>
-                        <td>대표 관리자 👸🏻</td>
+                        <td className='noticeWriter'>대표 관리자 👸🏻</td>
                         <td>2022-09-07</td>
                     </tr>
                     {6 === isOpen && 
@@ -89,7 +89,7 @@ const Notice = () => {
                     <tr>
                         <td>5</td>
                         <td className='5' onClick={onClick} style={{fontFamily: "Playfair Display"}}>RENTAL SERVICE</td>
-                        <td>대표 관리자 👸🏻</td>
+                        <td className='noticeWriter'>대표 관리자 👸🏻</td>
                         <td>2022-09-07</td>
                     </tr>
                     {5 === isOpen && 
@@ -110,7 +110,7 @@ const Notice = () => {
                     <tr>
                         <td>4</td>
                         <td className='4' onClick={onClick} style={{fontFamily: "Playfair Display"}}>SNAP IN SHOP</td>
-                        <td>대표 관리자 👸🏻</td>
+                        <td className='noticeWriter'>대표 관리자 👸🏻</td>
                         <td>2022-09-02</td>
                     </tr>
                     {4 === isOpen && 
@@ -128,7 +128,7 @@ const Notice = () => {
                     <tr>
                         <td>3</td>
                         <td className='3' onClick={onClick}>고객센터 상담시간</td>
-                        <td>대표 관리자 👸🏻</td>
+                        <td className='noticeWriter'>대표 관리자 👸🏻</td>
                         <td>2022-08-01</td>
                     </tr>
                     {3 === isOpen && 
@@ -151,7 +151,7 @@ const Notice = () => {
                     <tr>
                         <td>2</td>
                         <td className='2' onClick={onClick}>교환 및 반품안내</td>
-                        <td>대표 관리자 👸🏻</td>
+                        <td className='noticeWriter'>대표 관리자 👸🏻</td>
                         <td>2022-08-01</td>
                     </tr>
                     {2 === isOpen && 
@@ -218,7 +218,7 @@ const Notice = () => {
                     <tr>
                         <td>1</td>
                         <td className='1' onClick={onClick}>배송안내</td>
-                        <td>대표 관리자 👸🏻</td>
+                        <td className='noticeWriter'>대표 관리자 👸🏻</td>
                         <td>2022-08-01</td>
                     </tr>
                     {1 === isOpen && 

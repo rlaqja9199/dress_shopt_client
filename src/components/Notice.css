@@ -87,3 +87,21 @@
     text-decoration: underline;
     color: rgb(231, 231, 231);
 }
+
+/* 반응형 */
+@media screen and (max-width: 768px) {
+    #notice table {
+        width: 90%;
+    }
+    #notice table tr td:nth-child(2) {
+        max-width: 200px;
+        padding:0 5px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+    }
+    #notice table tr .noticeWriter {
+        display: none;
+    }
+
+}
