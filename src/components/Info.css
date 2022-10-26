@@ -115,10 +115,11 @@
         width: 15%;
     }
     .board ul li ul li:nth-child(2){
-        width: 25%;
+        width: 35%;
+        word-wrap: break-word;
     }
     .board ul li ul li:nth-child(3){
-        width: 60%;
+        width: 50%;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
